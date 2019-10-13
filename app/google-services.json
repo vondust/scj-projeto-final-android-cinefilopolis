@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "407593636356",
+    "firebase_url": "https://cinefilopolis-34scj-vondust.firebaseio.com",
+    "project_id": "cinefilopolis-34scj-vondust",
+    "storage_bucket": "cinefilopolis-34scj-vondust.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407593636356:android:6bdf039d67f114555f9b51",
+        "android_client_info": {
+          "package_name": "br.com.brunoaguiar.justdoit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407593636356-hfva65ifaud9t34do4a25ojd7l1dnbf3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.brunoaguiar.justdoit",
+            "certificate_hash": "306b11cb5cd8ac4dbf59cb899032fc311304c4ad"
+          }
+        },
+        {
+          "client_id": "407593636356-6irdb8eo8hi2ut1untb90n0vjk8rpajd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW3b4OFcfmZhaMiz4F3F3ew4jHR8YAbhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407593636356-6irdb8eo8hi2ut1untb90n0vjk8rpajd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
