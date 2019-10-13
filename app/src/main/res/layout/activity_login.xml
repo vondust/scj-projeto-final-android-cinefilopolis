@@ -3,20 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true">
+    android:fitsSystemWindows="true"
+    android:background="@color/colorDeepOrangeRoll">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFF"
+        android:background="@color/colorDeepOrangeRoll"
         android:orientation="vertical"
         android:paddingLeft="24dp"
         android:paddingTop="56dp"
         android:paddingRight="24dp">
 
         <ImageView
-            android:layout_width="411dp"
-            android:layout_height="217dp"
+            android:layout_width="265dp"
+            android:layout_height="139dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="24dp"
             android:src="@drawable/film_roll" />
@@ -25,6 +26,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:textColorHint="#FFF"
+            android:outlineAmbientShadowColor="#FFF"
+            android:outlineSpotShadowColor="#FFF"
             android:layout_marginBottom="8dp">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -32,6 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/label_email"
+                android:textColor="#FFF"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -39,6 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:textColorHint="#FFF"
             android:layout_marginBottom="8dp">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -46,16 +52,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/label_password"
+                android:textColor="#FFF"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <androidx.appcompat.widget.AppCompatButton
+        <Button
             android:id="@+id/btLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
-            android:background="@color/colorAccent"
+            android:background="@drawable/button_main_style"
+            android:textColor="#FFF"
             android:padding="12dp"
             android:text="@string/button_login" />
 
@@ -66,6 +74,7 @@
             android:layout_marginBottom="24dp"
             android:gravity="center"
             android:text="@string/label_new_account"
+            android:textColor="#FFF"
             android:textSize="16sp" />
 
     </LinearLayout>

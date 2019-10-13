@@ -1,10 +1,14 @@
 package br.com.brunoaguiar.cinefilopolis.model
 
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+
+@Parcelize
 data class Movie(
-    val title: String = "Título",
-    val synopsis: String = "sinopse",
-    val duration: String = "duracao",
-    val review: String = "avaliacao",
-    val rating: Double = 0.0,
-    val situation: String = "A assistir"
-)
+    var title: String = "Título",
+    var synopsis: String = "sinopse",
+    var duration: String = "duracao",
+    var review: String = "avaliacao",
+    var rating: Double = 0.0,
+    var situation: String = "A assistir"
+) : Parcelable

@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.widget.Toast
 import br.com.brunoaguiar.cinefilopolis.view.signup.SignUpActivity
 import br.com.brunoaguiar.cinefilopolis.R
+import br.com.brunoaguiar.cinefilopolis.view.main.MainActivity
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login.*
 
@@ -51,8 +52,8 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun goToHome() {
-        val intent = Intent(this, ListActivity::class.java)
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+        val intent = Intent(this, MainActivity::class.java)
+//        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
         startActivity(intent)
         finish()
     }

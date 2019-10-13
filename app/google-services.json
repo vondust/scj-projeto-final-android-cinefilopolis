@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:407593636356:android:6bdf039d67f114555f9b51",
         "android_client_info": {
-          "package_name": "br.com.brunoaguiar.justdoit"
+          "package_name": "br.com.brunoaguiar.cinefilopolis"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "407593636356-hfva65ifaud9t34do4a25ojd7l1dnbf3.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "br.com.brunoaguiar.justdoit",
+            "package_name": "br.com.brunoaguiar.cinefilopolis",
             "certificate_hash": "306b11cb5cd8ac4dbf59cb899032fc311304c4ad"
           }
         },
